@@ -1,0 +1,17 @@
+{
+  "name": "jermis-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.mjs",
+    "start": "node server.mjs",
+    "test": "node tests/flow.mjs && node tests/ai-flow.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mammoth": "^1.10.0",
+    "openai": "^5.20.0",
+    "pdfjs-dist": "^6.3.289"
+  }
+}

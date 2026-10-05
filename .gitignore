@@ -1,0 +1,8 @@
+node_modules/
+data/
+.env
+*.log
+.venv/
+.local-models/
+__pycache__/
+*.pyc
